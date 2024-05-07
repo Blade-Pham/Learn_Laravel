@@ -1,4 +1,6 @@
 # Learn_Laravel
+<h3>Luồng xử lý</h3>
+<img src="https://hocwebchuan.com/tutorial/laravel/images/laravel-structure.jpg">
 <table>
   <tr>
     <th>File</th>
@@ -42,22 +44,27 @@
   </tr>
   
   <tr>
-    <td></td>
-    <td></td>
+    <td>Database</td>
+    <td>Lưu trữ và chứa dữ liệu</td>
   </tr>
   
   <tr>
-    <td></td>
-    <td></td>
+    <td>Migration $ seeding </td>
+    <td>
+      <ul>
+        <li>Migration: dùng để tạo database</li>
+        <li>Seeding: tạo dữ liệu ảo </li>
+      </ul>
+    </td>
   </tr>
   
   <tr>
-    <td></td>
-    <td></td>
+    <td>Query</td>
+    <td>Câu truy vấn database</td>
   </tr>
   
   <tr>
-    <td></td>
-    <td></td>
+    <td>View</td>
+    <td>Nhận dữ liệu xử lý từ Controller(Model, Router), hiện thị giao diện cho người dùng </td>
   </tr>
 </table>
