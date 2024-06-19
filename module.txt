@@ -1,0 +1,17 @@
+-INSTALL MODULE LARAVEL
+composer require nwidart/laravel-modules
+
+-PUBLIST THE PACKAGE
+php artisan vendor:publish --provider="Nwidart\Modules\LaravelModulesServiceProvider"
+
+-AUTO LOAD: VÀO COMPOSER.JS / AUTOLOAD/ PSR-4 THÊM 
+"Modules\\": "Modules/"
+
+-CHẠY COMPOSER DUMP AUTOLOAD 
+composer dump-autoload
+
+-TẠO MODULE
+php artisan module:make Tên_MODULE
+
+-LARAVEL COMMAND 
+php artisan module:make-COMMAND TÊN_COMMNAD TÊN_MODULE 
