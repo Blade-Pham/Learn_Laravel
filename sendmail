@@ -1,0 +1,15 @@
+1: CONFIG ENV: 
+  MAIL_MAILER=smtp
+  MAIL_HOST=smtp.gmail.com
+  MAIL_PORT=587
+  MAIL_USERNAME=21a100100026@students.hou.edu.vn
+  MAIL_PASSWORD=dmbwbrpxzfyvcpjr
+  MAIL_ENCRYPTION=tls
+  MAIL_FROM_ADDRESS="hello@example.com"
+  MAIL_FROM_NAME="${APP_NAME}"
+
+2:CREATE MAIL:
+  php artisan make:mail MAIL_NAME
+3:CREATE MAIL'S VIEW
+4:SEND MAIL IN CONTROLLER
+  
