@@ -7,11 +7,11 @@ php artisan vendor:publish --provider="Nwidart\Modules\LaravelModulesServiceProv
 -AUTO LOAD: VÀO COMPOSER.JS / AUTOLOAD/ PSR-4 THÊM 
 "Modules\\": "Modules/"
 -VÀO COMPOSER.JS/ EXTRA THÊM 
-"merge-plugin":{
-  "include":[
-    "Module/*/composer.js"
-  ]
-}
+        "merge-plugin": {
+            "include": [
+                "Modules/*/composer.json"
+            ]
+        }
 
 -CHẠY COMPOSER DUMP AUTOLOAD 
 composer dump-autoload
