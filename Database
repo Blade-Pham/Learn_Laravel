@@ -1,0 +1,3 @@
+Create database by migrate: php artisan module:make-migrate MIGRATE_NAME MODULE_NAME,
+Create Model: php artisan model MODEL_NAME,
+Add attribute  fillable in model to use ORM Database: Them, Sua, Xoa ,...
