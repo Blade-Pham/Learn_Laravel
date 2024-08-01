@@ -21,3 +21,4 @@ php artisan module:make Tên_MODULE
 
 -LARAVEL COMMAND 
 php artisan module:make-COMMAND TÊN_COMMNAD TÊN_MODULE 
+link: https://laravelmodules.com/docs/v10/artisan-commands
