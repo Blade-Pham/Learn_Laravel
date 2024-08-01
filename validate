@@ -1,0 +1,6 @@
+C1:
+C2:
+  -Create Request: php artisan module:make-request REQUEST_NAME MODULE_NAME
+  - Create Rules in your Request
+    - In Controller: $validateData= $request->validated();
+    - Create messages when error: public function messages(){ return[]; }
